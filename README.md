@@ -2,9 +2,9 @@
 
 ## Project Summary
 
-This project applies Natural Language Processing (NLP) techniques to analyze patient drug reviews and evaluate drug effectiveness using real-world healthcare data. Multiple NLP approaches, including VADER sentiment analysis, BERT transformer models, TF-IDF with Logistic Regression, and biomedical Named Entity Recognition (SciSpaCy), were implemented to classify patient sentiment, extract medical entities, and identify patterns related to medication benefits and side effects.
+This project applies Natural Language Processing (NLP) techniques to analyze patient drug reviews and evaluate drug effectiveness using real-world healthcare data. The analysis combines rule-based and transformer-based sentiment analysis with machine learning models to classify patient feedback and identify patterns related to medication benefits, side effects, and overall treatment experience.
 
-The project demonstrates the application of machine learning and NLP techniques in healthcare analytics to transform unstructured patient feedback into meaningful insights that can support evidence-based decision-making.
+The project demonstrates how unstructured healthcare text can be transformed into meaningful insights that support healthcare analytics and evidence-based decision-making.
 
 ## Project Overview
 
@@ -14,26 +14,25 @@ In this project, Natural Language Processing (NLP) techniques were applied to tr
 
 The project demonstrates how NLP can support healthcare analytics by extracting meaningful information from patient feedback, helping healthcare professionals, researchers, and pharmaceutical organizations better understand real-world treatment outcomes.
 
-  ## Business Impact
+## Business Impact
 
-Patient-generated drug reviews contain valuable real-world evidence about medication effectiveness, treatment experiences, and adverse effects. However, manually analyzing thousands of unstructured reviews is time-consuming and difficult.
+Patient-generated drug reviews contain valuable real-world evidence about medication effectiveness, treatment experiences, and adverse effects. However, manually reviewing thousands of patient comments is time-consuming and difficult.
 
-This project demonstrates how Natural Language Processing (NLP) can transform unstructured patient feedback into actionable healthcare insights by:
+This project demonstrates how Natural Language Processing can:
 
-- Automatically classifying patient sentiment toward medications.
-- Identifying common medication benefits and adverse effects.
-- Extracting clinically relevant entities such as drug names and medical conditions.
-- Supporting evidence-based healthcare research through large-scale text analysis.
-- Demonstrating how machine learning and NLP can improve healthcare decision-making using real-world patient data.
+- Automatically classify patient sentiment toward medications.
+- Identify trends in medication benefits and side effects.
+- Support healthcare research using real-world patient feedback.
+- Transform unstructured healthcare text into actionable insights.
 
 ## Research Objectives
 
-- Analyze patient drug reviews to evaluate perceived drug effectiveness.
-- Classify patient sentiment as positive, negative, or neutral using VADER and BERT.
-- Extract biomedical entities such as drug names, medical conditions, and symptoms using SciSpaCy.
-- Predict drug effectiveness using TF-IDF with Logistic Regression and transformer-based language models.
-- Identify common patterns in medication benefits, adverse effects, and patient experiences through NLP techniques.
-
+- Analyze patient drug reviews using Natural Language Processing.
+- Compare rule-based (VADER) and transformer-based (BERT) sentiment analysis.
+- Predict patient sentiment from review text.
+- Evaluate drug effectiveness using machine learning techniques.
+- Explore biomedical text processing techniques for healthcare analytics.
+  
 - ## Dataset
 
 The analysis was performed using the **Drug Review Dataset (DrugLib.com)** obtained from the **UCI Machine Learning Repository**. The dataset contains real-world patient reviews describing medication experiences, treatment effectiveness, side effects, and satisfaction ratings.
@@ -54,7 +53,7 @@ The analysis was performed using the **Drug Review Dataset (DrugLib.com)** obtai
 - Side Effects
 - Overall Satisfaction Rating
 
-  ## Technologies Used
+ ## Technologies Used
 
 - Python
 - Jupyter Notebook
@@ -63,14 +62,12 @@ The analysis was performed using the **Drug Review Dataset (DrugLib.com)** obtai
 - NLTK
 - VADER Sentiment Analyzer
 - Hugging Face Transformers (BERT)
-- SciSpaCy
 - Scikit-learn
 - TF-IDF Vectorization
 - Logistic Regression
 - Matplotlib
-- Seaborn
 
-  ## Methodology
+ ## Methodology
 
 The project followed the following Natural Language Processing workflow:
 
@@ -80,13 +77,12 @@ The project followed the following Natural Language Processing workflow:
 4. Text Preprocessing
 5. VADER Sentiment Analysis
 6. BERT Sentiment Classification
-7. Named Entity Recognition using SciSpaCy
-8. TF-IDF Feature Extraction
-9. Logistic Regression Classification
-10. Performance Evaluation
-11. Result Interpretation
+7. TF-IDF Feature Extraction
+8. Logistic Regression Classification
+9. Performance Evaluation
+10. Result Interpretation
 
-    ## Project Workflow
+   ## Project Workflow
 
 ```text
 Drug Review Dataset
@@ -103,10 +99,6 @@ Sentiment Analysis
 (VADER & BERT)
         │
         ▼
-Named Entity Recognition
-(SciSpaCy)
-        │
-        ▼
 Feature Extraction
 (TF-IDF)
         │
@@ -115,32 +107,34 @@ Machine Learning
 (Logistic Regression)
         │
         ▼
-Model Evaluation & Insights
+Model Evaluation
+(Classification Report & Performance Metrics)
+        │
+        ▼
+Healthcare Insights
 ```
 
 ## Key Results
 
-- Successfully classified patient reviews into positive, negative, and neutral sentiments using VADER and BERT.
-- Identified stronger negative sentiment within side-effect reviews compared to medication benefit reviews.
-- Extracted biomedical entities including drug names, medical conditions, and symptoms using SciSpaCy.
-- Evaluated drug effectiveness prediction using TF-IDF with Logistic Regression and transformer-based language models.
-- Demonstrated the value of Natural Language Processing for transforming unstructured healthcare text into actionable insights.
-
-  ## Skills Demonstrated
+- Classified patient reviews using VADER and BERT sentiment analysis.
+- Compared rule-based and transformer-based NLP approaches.
+- Identified stronger negative sentiment in side-effect reviews.
+- Evaluated drug effectiveness using TF-IDF and Logistic Regression.
+- Demonstrated how NLP can support healthcare analytics using patient-generated text.
+  
+ ## Skills Demonstrated
 
 - Natural Language Processing (NLP)
 - Sentiment Analysis
-- Healthcare Data Analytics
 - Machine Learning
-- Text Classification
-- Named Entity Recognition (NER)
-- Data Cleaning and Preprocessing
-- Feature Engineering
-- Exploratory Data Analysis (EDA)
-- Model Evaluation
-- Data Visualization
+- Healthcare Data Analytics
+- Text Preprocessing
+- TF-IDF Feature Engineering
+- Logistic Regression
+- Transformer Models (BERT)
+- Data Cleaning
+- Exploratory Data Analysis
 - Python Programming
-
   ## Repository Contents
 
 | File | Description |

@@ -62,9 +62,6 @@ The analysis was performed using the **Drug Review Dataset (DrugLib.com)** obtai
 - NLTK
 - VADER Sentiment Analyzer
 - Hugging Face Transformers (BERT)
-- Scikit-learn
-- TF-IDF Vectorization
-- Logistic Regression
 - Matplotlib
 
  ## Methodology
@@ -83,6 +80,7 @@ The project followed the following Natural Language Processing workflow:
 10. Result Interpretation
 
    ## Project Workflow
+## Project Workflow
 
 ```text
 Drug Review Dataset
@@ -95,20 +93,15 @@ Text Preprocessing
 (Tokenization, Stopword Removal, Lemmatization)
         │
         ▼
-Sentiment Analysis
-(VADER & BERT)
+VADER Sentiment Analysis
+(Rule-Based Sentiment Classification)
         │
         ▼
-Feature Extraction
-(TF-IDF)
+BERT Sentiment Classification
+(Transformer-Based NLP)
         │
         ▼
-Machine Learning
-(Logistic Regression)
-        │
-        ▼
-Model Evaluation
-(Classification Report & Performance Metrics)
+Sentiment Comparison & Analysis
         │
         ▼
 Healthcare Insights
@@ -119,7 +112,6 @@ Healthcare Insights
 - Classified patient reviews using VADER and BERT sentiment analysis.
 - Compared rule-based and transformer-based NLP approaches.
 - Identified stronger negative sentiment in side-effect reviews.
-- Evaluated drug effectiveness using TF-IDF and Logistic Regression.
 - Demonstrated how NLP can support healthcare analytics using patient-generated text.
   
  ## Skills Demonstrated
@@ -129,8 +121,6 @@ Healthcare Insights
 - Machine Learning
 - Healthcare Data Analytics
 - Text Preprocessing
-- TF-IDF Feature Engineering
-- Logistic Regression
 - Transformer Models (BERT)
 - Data Cleaning
 - Exploratory Data Analysis
@@ -167,7 +157,4 @@ Healthcare Insights
 - UCI Machine Learning Repository – Drug Review Dataset (DrugLib.com)
 - NLTK Documentation
 - Hugging Face Transformers
-- SciSpaCy Documentation
-- Scikit-learn Documentation
-
   

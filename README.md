@@ -140,7 +140,7 @@ Healthcare Insights
 | File | Description |
 |------|-------------|
 | `README.md` | Project overview and documentation |
-| `NLP_Final_Project.ipynb` | Complete project notebook containing data preprocessing, NLP pipeline, and model implementation |
+| `NLP__Project_g.ipynb` | Complete project notebook containing data preprocessing, NLP pipeline, and model implementation |
 | `Drug_Review_Dataset.csv` | Drug review dataset used for analysis |
 | `Project_Report.pdf` | Detailed project report describing methodology, results, and discussion |
 | `images/` | Project screenshots, workflow diagrams, and visualizations |
